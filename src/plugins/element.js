@@ -1,4 +1,6 @@
 import Vue from 'vue'
-import { Button } from 'element-ui'
+import { Input, Checkbox, MessageBox } from 'element-ui'
 
-Vue.use(Button)
+Vue.use(Input)
+Vue.use(Checkbox)
+Vue.prototype.$confirm = MessageBox.confirm

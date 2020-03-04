@@ -1,0 +1,7 @@
+mutation createTodo($content:String!, $checked:Boolean) {
+  createTodo(content: $content, checked: $checked){
+    content
+    id
+    checked
+  }
+}

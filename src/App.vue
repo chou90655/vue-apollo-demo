@@ -23,7 +23,10 @@ export default {
   font-family Avenir, Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  text-align center
   color #2c3e50
-  margin-top 60px
+  padding 0 24px
+  box-sizing border-box
+  margin 100px auto
+  width 600px
+  border 1px solid #e8e8e8
 </style>

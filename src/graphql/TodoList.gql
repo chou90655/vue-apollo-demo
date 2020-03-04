@@ -1,0 +1,7 @@
+query todoList {
+  TodoList{
+    content
+    id
+    checked
+  }
+}
